@@ -1,0 +1,38 @@
+{
+  "name": "podium-koa-podlet",
+  "version": "1.0.0",
+  "description": "Koa plugin for Podium Podlet",
+  "main": "lib/podlet-plugin.js",
+  "scripts": {
+    "test": "tap test/*.js",
+    "test:coverage": "tap test/*.js --cov",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "homepage": "https://podium-lib.io/",
+  "author": "Dave Honneffer",
+  "license": "MIT",
+  "keywords": [
+    "micro services",
+    "micro frontend",
+    "components",
+    "koa",
+    "podium"
+  ],
+  "dependencies": {
+    "@podium/utils": "^3.1.2",
+    "path-to-regexp": "^3.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-config-prettier": "^4.1.0",
+    "eslint-plugin-import": "^2.17.0",
+    "eslint-plugin-prettier": "^3.0.1",
+    "prettier": "^1.17.0",
+    "@podium/podlet": "^3.0.3",
+    "koa": "^2.7.0",
+    "koa-route": "^3.2.0",
+    "tap": "^12.6.3"
+  }
+}
